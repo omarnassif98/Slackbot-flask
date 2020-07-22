@@ -1,0 +1,10 @@
+{% extends "BasePage.html" %}
+{% block Title %}Ticket viewer{% endblock %}
+{% block content %}
+<div class="centerDiv">
+  <h1>Welcome to the sandbox</h1>
+  <h2>Tickets submitted to praise-bot are viewable on this webpage</h2>
+</div>
+<script src={{url_for('static', filename='script.js')}}></script>
+
+  {% endblock %}

@@ -1,0 +1,16 @@
+[
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "Hey there, welcome to the sandbox! This is a simple setup which can be broken into 2 parts."
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "> The first is a small gamelet where this app keeps track of who has the most 'praise'.\n\nJust type */praise [name you'd like to praise] [how many praises you'd like to send over]*\nOr type */report* to have a graph generated and sent your way.\n\n> The second function is more practical, it's a simple ticketing system\n\n The actual process for filing one was made using slack's modal tools and it can be accessed via a shortcut (the lightning bolt in the lower left hand corner of the input field)\nAs for viewing and resolving them. It is done on a dedicated <https://backend-272nc6epsa-ue.a.run.app/|webapp>"
+			}
+		}
+	]

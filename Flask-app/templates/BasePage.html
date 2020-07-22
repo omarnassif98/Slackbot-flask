@@ -1,0 +1,18 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  {% block Head%}{%endblock%}
+  <meta charset="utf-8">
+  <title>{% block Title %}{% endblock %}</title>
+  <link rel="stylesheet" type="text/css" href={{url_for('static', filename='style.css')}}>
+</head>
+
+<body>
+  {% block content%}
+  {% endblock %}
+</body>
+<footer>
+  <p>This webapp displays tickets generated from a slack app. Feel free to view the <a>Source Code</a></p>
+</footer>
+</html>

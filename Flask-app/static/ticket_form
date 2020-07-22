@@ -1,0 +1,46 @@
+{
+	"title": {
+		"type": "plain_text",
+		"text": "Ticket Submission"
+	},
+	"submit": {
+		"type": "plain_text",
+		"text": "Submit ticket"
+	},
+	"blocks": [
+		{
+			"type": "input",
+			"element": {
+				"type": "plain_text_input",
+				"action_id": "text",
+				"min_length": 1,
+				"placeholder": {
+					"type": "plain_text",
+					"text": "Or your preferred name"
+				}
+			},
+			"label": {
+				"type": "plain_text",
+				"text": "Name"
+			}
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "input",
+			"element": {
+				"type": "plain_text_input",
+				"action_id": "text",
+				"multiline": true,
+				"min_length": 1
+			},
+			"label": {
+				"type": "plain_text",
+				"text": "Query",
+				"emoji": true
+			}
+		}
+	],
+	"type": "modal"
+}
